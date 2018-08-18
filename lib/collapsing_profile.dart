@@ -16,6 +16,7 @@ class _CollapsingProfileState extends State<CollapsingProfile> {
     return new Scaffold(
       body: new Builder(
         builder: (context) => new SliverContainer(
+
               floatingActionButton: new Container(
                 height: 60.0,
                 width: 60.0,
@@ -31,6 +32,7 @@ class _CollapsingProfileState extends State<CollapsingProfile> {
 
                 ),
               ),
+
               expandedHeight: 256.0,
               slivers: <Widget>[
                 new SliverAppBar(

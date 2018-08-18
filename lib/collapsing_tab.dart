@@ -60,6 +60,7 @@ class _CollapsingTabState extends State<CollapsingTab> {
 
   @override
   Widget build(BuildContext context) {
+
     var flexibleSpaceWidget = new SliverAppBar(
       expandedHeight: 200.0,
       pinned: true,
@@ -80,6 +81,7 @@ class _CollapsingTabState extends State<CollapsingTab> {
         ),
       ],
     );
+
     return Scaffold(
       body: new DefaultTabController(
         length: 3,

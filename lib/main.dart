@@ -8,7 +8,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
         primaryColor: const Color(0xFF02BB9F),
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
       routes: {
         // When we navigate to the "/" route, build the FirstScreen Widget
         '/': (context) => CollapsingTab(),
-        // When we navigate to the "/second" route, build the SecondScreen Widget
+        // When we navigate to the "/profile" route, build the SecondScreen Widget
         '/profile': (context) => CollapsingProfile(),
       },
     );
